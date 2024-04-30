@@ -1,10 +1,4 @@
-print("hello python")
-# def apple(n):
-#     print(n)
 
-# apple("orange")
-
-# apple_one = "lemon tea"
-# apple_two = "ginger tea"
-# apple_three = "masala tea"
-
+while number2<=1 and number2>=10:
+    number=int(input("enter your number"))
+    
