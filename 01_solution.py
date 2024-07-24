@@ -57,3 +57,19 @@ print(isinstance(my_tesla,ElectricCar))
 # my_new_car=Car("tata","tiago","20000")
 # print(my_new_car.brand)
 
+class Battery:
+    def battery_info(self):
+        return "this is battery"
+
+class Engine:
+    def engine_info(self):
+        return"this is engine info"
+
+class ElectricCarTwo(Battery,Engine,Car):
+    pass
+
+my_new_tesla=ElectricCarTwo("tesla","model","30000")
+print(my_new_tesla.battery_info())
+print(my_new_tesla.engine_info())
+
+
