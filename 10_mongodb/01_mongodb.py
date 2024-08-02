@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 from bson import ObjectId
-client=MongoClient("take_from_env",tlsAllowInvalidCertificates=True)
+client=MongoClient("mongodb+srv://sreekarb2005:Ruj9s02EzV7EiAzK@cluster0.lxrl5zp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/ytmanager/",tlsAllowInvalidCertificates=True)
 print(client)
 db=client["ytmanager"]
 video_collection=db["videos"]
